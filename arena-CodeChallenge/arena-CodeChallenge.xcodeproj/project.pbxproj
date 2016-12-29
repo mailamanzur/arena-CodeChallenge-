@@ -14,6 +14,8 @@
 		063374031E15853000DEAE91 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374021E15853000DEAE91 /* BaseMantleObject.m */; };
 		063374161E1585F100DEAE91 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374131E1585F100DEAE91 /* BaseCollectionViewCell.m */; };
 		063374171E1585F100DEAE91 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374151E1585F100DEAE91 /* BaseTableViewCell.m */; };
+		0633741D1E1597C400DEAE91 /* Repositories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633741C1E1597C400DEAE91 /* Repositories.m */; };
+		063374201E1598C700DEAE91 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633741F1E1598C700DEAE91 /* Owner.m */; };
 		06EAD8F71E157A660089CEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F61E157A660089CEA6 /* main.m */; };
 		06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F91E157A660089CEA6 /* AppDelegate.m */; };
 		06EAD9001E157A660089CEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD8FE1E157A660089CEA6 /* Main.storyboard */; };
@@ -58,6 +60,10 @@
 		063374131E1585F100DEAE91 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
 		063374141E1585F100DEAE91 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		063374151E1585F100DEAE91 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		0633741B1E1597C400DEAE91 /* Repositories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repositories.h; sourceTree = "<group>"; };
+		0633741C1E1597C400DEAE91 /* Repositories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repositories.m; sourceTree = "<group>"; };
+		0633741E1E1598C700DEAE91 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		0633741F1E1598C700DEAE91 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
 		06EAD8F21E157A660089CEA6 /* arena-CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arena-CodeChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EAD8F61E157A660089CEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EAD8F81E157A660089CEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -195,6 +201,10 @@
 			children = (
 				063374011E15853000DEAE91 /* BaseMantleObject.h */,
 				063374021E15853000DEAE91 /* BaseMantleObject.m */,
+				0633741B1E1597C400DEAE91 /* Repositories.h */,
+				0633741C1E1597C400DEAE91 /* Repositories.m */,
+				0633741E1E1598C700DEAE91 /* Owner.h */,
+				0633741F1E1598C700DEAE91 /* Owner.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -582,8 +592,10 @@
 				063374171E1585F100DEAE91 /* BaseTableViewCell.m in Sources */,
 				063373F71E1584D900DEAE91 /* ApiNetworkingManager.m in Sources */,
 				063373FA1E15851100DEAE91 /* NetworkingConstants.m in Sources */,
+				063374201E1598C700DEAE91 /* Owner.m in Sources */,
 				063373FF1E15851C00DEAE91 /* NSString+Utils.m in Sources */,
 				063374031E15853000DEAE91 /* BaseMantleObject.m in Sources */,
+				0633741D1E1597C400DEAE91 /* Repositories.m in Sources */,
 				06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */,
 				063374161E1585F100DEAE91 /* BaseCollectionViewCell.m in Sources */,
 				063374001E15851C00DEAE91 /* StoryboardUtil.m in Sources */,

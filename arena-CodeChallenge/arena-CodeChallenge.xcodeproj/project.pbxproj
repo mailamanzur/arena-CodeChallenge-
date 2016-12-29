@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063373F71E1584D900DEAE91 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063373F61E1584D900DEAE91 /* ApiNetworkingManager.m */; };
+		063373FA1E15851100DEAE91 /* NetworkingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 063373F91E15851100DEAE91 /* NetworkingConstants.m */; };
+		063373FF1E15851C00DEAE91 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 063373FC1E15851C00DEAE91 /* NSString+Utils.m */; };
+		063374001E15851C00DEAE91 /* StoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 063373FE1E15851C00DEAE91 /* StoryboardUtil.m */; };
+		063374031E15853000DEAE91 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374021E15853000DEAE91 /* BaseMantleObject.m */; };
+		063374161E1585F100DEAE91 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374131E1585F100DEAE91 /* BaseCollectionViewCell.m */; };
+		063374171E1585F100DEAE91 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374151E1585F100DEAE91 /* BaseTableViewCell.m */; };
 		06EAD8F71E157A660089CEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F61E157A660089CEA6 /* main.m */; };
 		06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F91E157A660089CEA6 /* AppDelegate.m */; };
-		06EAD8FD1E157A660089CEA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8FC1E157A660089CEA6 /* ViewController.m */; };
 		06EAD9001E157A660089CEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD8FE1E157A660089CEA6 /* Main.storyboard */; };
 		06EAD9021E157A660089CEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD9011E157A660089CEA6 /* Assets.xcassets */; };
 		06EAD9051E157A660089CEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD9031E157A660089CEA6 /* LaunchScreen.storyboard */; };
@@ -38,12 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063373F51E1584D900DEAE91 /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
+		063373F61E1584D900DEAE91 /* ApiNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiNetworkingManager.m; sourceTree = "<group>"; };
+		063373F81E15851100DEAE91 /* NetworkingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConstants.h; sourceTree = "<group>"; };
+		063373F91E15851100DEAE91 /* NetworkingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConstants.m; sourceTree = "<group>"; };
+		063373FB1E15851C00DEAE91 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		063373FC1E15851C00DEAE91 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		063373FD1E15851C00DEAE91 /* StoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardUtil.h; sourceTree = "<group>"; };
+		063373FE1E15851C00DEAE91 /* StoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardUtil.m; sourceTree = "<group>"; };
+		063374011E15853000DEAE91 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
+		063374021E15853000DEAE91 /* BaseMantleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMantleObject.m; sourceTree = "<group>"; };
+		063374121E1585F100DEAE91 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		063374131E1585F100DEAE91 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		063374141E1585F100DEAE91 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		063374151E1585F100DEAE91 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		06EAD8F21E157A660089CEA6 /* arena-CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arena-CodeChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EAD8F61E157A660089CEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EAD8F81E157A660089CEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06EAD8F91E157A660089CEA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06EAD8FB1E157A660089CEA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		06EAD8FC1E157A660089CEA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		06EAD8FF1E157A660089CEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06EAD9011E157A660089CEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06EAD9041E157A660089CEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,6 +111,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063374181E1585FB00DEAE91 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0633741A1E15860C00DEAE91 /* TableView */,
+				063374191E15860300DEAE91 /* CollectionView */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		063374191E15860300DEAE91 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				063374121E1585F100DEAE91 /* BaseCollectionViewCell.h */,
+				063374131E1585F100DEAE91 /* BaseCollectionViewCell.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		0633741A1E15860C00DEAE91 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				063374141E1585F100DEAE91 /* BaseTableViewCell.h */,
+				063374151E1585F100DEAE91 /* BaseTableViewCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		06425E401E1580CA009E054D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				06EAD8F81E157A660089CEA6 /* AppDelegate.h */,
+				06EAD8F91E157A660089CEA6 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		06425E411E1580D9009E054D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		06425E421E1580E7009E054D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				06EAD8FE1E157A660089CEA6 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		06425E431E1580F2009E054D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				063374181E1585FB00DEAE91 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		06425E441E1580FB009E054D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				063373FB1E15851C00DEAE91 /* NSString+Utils.h */,
+				063373FC1E15851C00DEAE91 /* NSString+Utils.m */,
+				063373FD1E15851C00DEAE91 /* StoryboardUtil.h */,
+				063373FE1E15851C00DEAE91 /* StoryboardUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		06425E451E15810B009E054D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				063373F81E15851100DEAE91 /* NetworkingConstants.h */,
+				063373F91E15851100DEAE91 /* NetworkingConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		06425E461E158113009E054D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				063374011E15853000DEAE91 /* BaseMantleObject.h */,
+				063374021E15853000DEAE91 /* BaseMantleObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		06425E471E15811B009E054D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				063373F51E1584D900DEAE91 /* ApiNetworkingManager.h */,
+				063373F61E1584D900DEAE91 /* ApiNetworkingManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		06EAD8E91E157A660089CEA6 = {
 			isa = PBXGroup;
 			children = (
@@ -118,14 +233,14 @@
 		06EAD8F41E157A660089CEA6 /* arena-CodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				06EAD8F81E157A660089CEA6 /* AppDelegate.h */,
-				06EAD8F91E157A660089CEA6 /* AppDelegate.m */,
-				06EAD8FB1E157A660089CEA6 /* ViewController.h */,
-				06EAD8FC1E157A660089CEA6 /* ViewController.m */,
-				06EAD8FE1E157A660089CEA6 /* Main.storyboard */,
-				06EAD9011E157A660089CEA6 /* Assets.xcassets */,
-				06EAD9031E157A660089CEA6 /* LaunchScreen.storyboard */,
-				06EAD9061E157A660089CEA6 /* Info.plist */,
+				06425E471E15811B009E054D /* Networking */,
+				06425E461E158113009E054D /* Models */,
+				06425E451E15810B009E054D /* Constants */,
+				06425E441E1580FB009E054D /* Utils */,
+				06425E431E1580F2009E054D /* Views */,
+				06425E421E1580E7009E054D /* Storyboards */,
+				06425E411E1580D9009E054D /* Controllers */,
+				06425E401E1580CA009E054D /* AppDelegate */,
 				06EAD8F51E157A660089CEA6 /* Supporting Files */,
 			);
 			path = "arena-CodeChallenge";
@@ -134,6 +249,9 @@
 		06EAD8F51E157A660089CEA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06EAD9011E157A660089CEA6 /* Assets.xcassets */,
+				06EAD9031E157A660089CEA6 /* LaunchScreen.storyboard */,
+				06EAD9061E157A660089CEA6 /* Info.plist */,
 				06EAD8F61E157A660089CEA6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -461,8 +579,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EAD8FD1E157A660089CEA6 /* ViewController.m in Sources */,
+				063374171E1585F100DEAE91 /* BaseTableViewCell.m in Sources */,
+				063373F71E1584D900DEAE91 /* ApiNetworkingManager.m in Sources */,
+				063373FA1E15851100DEAE91 /* NetworkingConstants.m in Sources */,
+				063373FF1E15851C00DEAE91 /* NSString+Utils.m in Sources */,
+				063374031E15853000DEAE91 /* BaseMantleObject.m in Sources */,
 				06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */,
+				063374161E1585F100DEAE91 /* BaseCollectionViewCell.m in Sources */,
+				063374001E15851C00DEAE91 /* StoryboardUtil.m in Sources */,
 				06EAD8F71E157A660089CEA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -600,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -703,6 +827,7 @@
 				06EAD9211E157A660089CEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06EAD9221E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +836,7 @@
 				06EAD9241E157A660089CEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06EAD9251E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +845,7 @@
 				06EAD9271E157A660089CEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

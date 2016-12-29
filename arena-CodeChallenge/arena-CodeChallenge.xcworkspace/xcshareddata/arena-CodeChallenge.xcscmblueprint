@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C7EE1081E45F6C45D7CEC776BA1C19611DF8AA51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C7EE1081E45F6C45D7CEC776BA1C19611DF8AA51" : 9223372036854775807,
+    "BAD0CA4B99A784F1404ED7EEC40941B2CBB2FD23" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "707D1E66-D077-42E0-8E0F-E2E88E8A52A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C7EE1081E45F6C45D7CEC776BA1C19611DF8AA51" : "arena-CodeChallenge-\/",
+    "BAD0CA4B99A784F1404ED7EEC40941B2CBB2FD23" : "..\/Documents\/lojong"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "arena-CodeChallenge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "arena-CodeChallenge\/arena-CodeChallenge.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:lojong\/lojong.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAD0CA4B99A784F1404ED7EEC40941B2CBB2FD23"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:mailamanzur\/arena-CodeChallenge-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7EE1081E45F6C45D7CEC776BA1C19611DF8AA51"
+    }
+  ]
+}

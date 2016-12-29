@@ -1,0 +1,24 @@
+default_platform :ios
+
+platform :ios do
+  before_all do
+    clear_derived_data
+    cocoapods
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan(
+      workspace: 'arena-CodeChallenge.xcworkspace',
+      scheme: 'arena-CodeChallenge',
+      clean: true,
+      skip_build: true,
+      code_coverage: true
+    )
+
+    xcov(
+      workspace: 'arena-CodeChallenge.xcworkspace',
+      scheme: 'arena-CodeChallenge'
+    )
+  end
+end

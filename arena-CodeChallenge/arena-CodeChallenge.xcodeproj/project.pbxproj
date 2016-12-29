@@ -19,6 +19,9 @@
 		063374231E159E7E00DEAE91 /* RepositoriesApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374221E159E7E00DEAE91 /* RepositoriesApiManager.m */; };
 		063374291E15A2BC00DEAE91 /* RepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374281E15A2BC00DEAE91 /* RepositoriesViewController.m */; };
 		0633742D1E15AC4500DEAE91 /* RepositoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0633742C1E15AC4500DEAE91 /* RepositoriesTableViewCell.m */; };
+		063374311E15C12F00DEAE91 /* PullRequestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374301E15C12F00DEAE91 /* PullRequestTableViewCell.m */; };
+		063374351E15C22800DEAE91 /* PullRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374341E15C22800DEAE91 /* PullRequest.m */; };
+		063374391E15C58700DEAE91 /* PullRequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374381E15C58700DEAE91 /* PullRequestsViewController.m */; };
 		06EAD8F71E157A660089CEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F61E157A660089CEA6 /* main.m */; };
 		06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F91E157A660089CEA6 /* AppDelegate.m */; };
 		06EAD9001E157A660089CEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD8FE1E157A660089CEA6 /* Main.storyboard */; };
@@ -73,6 +76,12 @@
 		063374281E15A2BC00DEAE91 /* RepositoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoriesViewController.m; sourceTree = "<group>"; };
 		0633742B1E15AC4500DEAE91 /* RepositoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoriesTableViewCell.h; sourceTree = "<group>"; };
 		0633742C1E15AC4500DEAE91 /* RepositoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoriesTableViewCell.m; sourceTree = "<group>"; };
+		0633742F1E15C12F00DEAE91 /* PullRequestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRequestTableViewCell.h; sourceTree = "<group>"; };
+		063374301E15C12F00DEAE91 /* PullRequestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequestTableViewCell.m; sourceTree = "<group>"; };
+		063374331E15C22800DEAE91 /* PullRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRequest.h; sourceTree = "<group>"; };
+		063374341E15C22800DEAE91 /* PullRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequest.m; sourceTree = "<group>"; };
+		063374371E15C58700DEAE91 /* PullRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRequestsViewController.h; sourceTree = "<group>"; };
+		063374381E15C58700DEAE91 /* PullRequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequestsViewController.m; sourceTree = "<group>"; };
 		06EAD8F21E157A660089CEA6 /* arena-CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arena-CodeChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EAD8F61E157A660089CEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EAD8F81E157A660089CEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +156,7 @@
 		0633741A1E15860C00DEAE91 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				0633742E1E15C0FC00DEAE91 /* PullRequests */,
 				0633742A1E15AC1A00DEAE91 /* Repositories */,
 				063374141E1585F100DEAE91 /* BaseTableViewCell.h */,
 				063374151E1585F100DEAE91 /* BaseTableViewCell.m */,
@@ -183,6 +193,33 @@
 			name = Repositories;
 			sourceTree = "<group>";
 		};
+		0633742E1E15C0FC00DEAE91 /* PullRequests */ = {
+			isa = PBXGroup;
+			children = (
+				0633742F1E15C12F00DEAE91 /* PullRequestTableViewCell.h */,
+				063374301E15C12F00DEAE91 /* PullRequestTableViewCell.m */,
+			);
+			name = PullRequests;
+			sourceTree = "<group>";
+		};
+		063374321E15C20900DEAE91 /* PullRequest */ = {
+			isa = PBXGroup;
+			children = (
+				063374331E15C22800DEAE91 /* PullRequest.h */,
+				063374341E15C22800DEAE91 /* PullRequest.m */,
+			);
+			name = PullRequest;
+			sourceTree = "<group>";
+		};
+		063374361E15C54E00DEAE91 /* PullRequests */ = {
+			isa = PBXGroup;
+			children = (
+				063374371E15C58700DEAE91 /* PullRequestsViewController.h */,
+				063374381E15C58700DEAE91 /* PullRequestsViewController.m */,
+			);
+			name = PullRequests;
+			sourceTree = "<group>";
+		};
 		06425E401E1580CA009E054D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +232,7 @@
 		06425E411E1580D9009E054D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				063374361E15C54E00DEAE91 /* PullRequests */,
 				063374251E15A27F00DEAE91 /* Repositories */,
 			);
 			name = Controllers;
@@ -239,6 +277,7 @@
 		06425E461E158113009E054D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				063374321E15C20900DEAE91 /* PullRequest */,
 				063374261E15A28E00DEAE91 /* Repositories */,
 				063374011E15853000DEAE91 /* BaseMantleObject.h */,
 				063374021E15853000DEAE91 /* BaseMantleObject.m */,
@@ -635,12 +674,15 @@
 				063374231E159E7E00DEAE91 /* RepositoriesApiManager.m in Sources */,
 				063373FF1E15851C00DEAE91 /* NSString+Utils.m in Sources */,
 				063374031E15853000DEAE91 /* BaseMantleObject.m in Sources */,
+				063374311E15C12F00DEAE91 /* PullRequestTableViewCell.m in Sources */,
 				0633741D1E1597C400DEAE91 /* Repositories.m in Sources */,
 				06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */,
 				063374161E1585F100DEAE91 /* BaseCollectionViewCell.m in Sources */,
 				063374001E15851C00DEAE91 /* StoryboardUtil.m in Sources */,
 				0633742D1E15AC4500DEAE91 /* RepositoriesTableViewCell.m in Sources */,
 				063374291E15A2BC00DEAE91 /* RepositoriesViewController.m in Sources */,
+				063374351E15C22800DEAE91 /* PullRequest.m in Sources */,
+				063374391E15C58700DEAE91 /* PullRequestsViewController.m in Sources */,
 				06EAD8F71E157A660089CEA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

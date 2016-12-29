@@ -12,6 +12,7 @@
 #import "Repositories.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "RepositoriesTableViewCell.h"
+#import "PullRequestsViewController.h"
 
 typedef void (^LoadEnds)();
 typedef void (^RefreshEnds)();
@@ -23,6 +24,7 @@ typedef void (^RefreshEnds)();
 @property (assign, nonatomic) BOOL isRefreshing;
 @property (strong, nonatomic) NSNumber *page;
 @property (strong, nonatomic) NSMutableArray *repositories;
+@property (strong, nonatomic) NSIndexPath *selectedIndexPath;
 
 @end
 
@@ -104,11 +106,27 @@ typedef void (^RefreshEnds)();
     return [RepositoriesTableViewCell cellHeight];
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    self.selectedIndexPath = indexPath;
+    
+}
+
+
+
 -(RepositoriesTableViewCell *)tableView:(UITableView *)tableView repositoryCellForIndexPath:(NSIndexPath *)indexPath {
     RepositoriesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[RepositoriesTableViewCell cellIdentifier] forIndexPath:indexPath];
     [cell setup:[_repositories objectAtIndex:indexPath.row]];
     return cell;
     
+}
+
+#pragma mark - Navigation
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"PullRequestSegue"]) {
+        PullRequestsViewController *prvc = segue.destinationViewController;
+        prvc.repositories = [self.repositories objectAtIndex:self.selectedIndexPath.row];
+        
+    }
 }
 
 

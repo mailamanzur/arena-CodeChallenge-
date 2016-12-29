@@ -1,5 +1,5 @@
 //
-//  RepositoriesTableViewCell.h
+//  PullRequestTableViewCell.h
 //  arena-CodeChallenge
 //
 //  Created by Maila  Manzur on 29/12/16.
@@ -8,7 +8,6 @@
 
 #import "BaseTableViewCell.h"
 
-
-@interface RepositoriesTableViewCell : BaseTableViewCell
+@interface PullRequestTableViewCell : BaseTableViewCell
 
 @end

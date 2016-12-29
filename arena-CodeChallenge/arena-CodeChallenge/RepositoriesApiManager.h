@@ -20,5 +20,8 @@ typedef void (^RepositoriesFailureBlock)(NSString *errorMsg);
                           Failure:(RepositoriesFailureBlock)failure;
 
 
-
+- (void)fetchPullRequestsWithUser:(NSString *)owner
+                    andRepository:(NSString *)repository
+                          Success:(RepositoriesSuccessBlock)success
+                          Failure:(RepositoriesFailureBlock)failure;
 @end

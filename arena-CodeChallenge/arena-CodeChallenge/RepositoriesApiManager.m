@@ -8,6 +8,7 @@
 
 #import "RepositoriesApiManager.h"
 #import "Repositories.h"
+#import "PullRequest.h"
 
 
 @implementation RepositoriesApiManager
@@ -50,5 +51,32 @@
         failure([error localizedDescription]);
     }];
 }
+
+- (void)fetchPullRequestsWithUser:(NSString *)owner
+                    andRepository:(NSString *)repository
+                          Success:(RepositoriesSuccessBlock)success
+                          Failure:(RepositoriesFailureBlock)failure {
+    
+    NSString *finalURL = [NSString stringWithFormat:kApiPullRequest,owner,repository];
+    
+    [self GET:finalURL params:nil success:^(NSURLSessionTask *operation, id responseObject) {
+        
+        NSError *error;
+        
+        NSArray *response = [PullRequest parseArray:responseObject error:&error];
+        
+        if (response)
+            success(response);
+        else
+            success(nil);
+        
+    } failure:^(NSURLSessionTask *operation, NSError *error, NSString *customErrorMessage) {
+        failure([error localizedDescription]);
+    }];
+}
+
+
+    
+
 
 @end

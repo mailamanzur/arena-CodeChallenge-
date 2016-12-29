@@ -1,0 +1,18 @@
+target 'arena-CodeChallenge' do
+
+  pod "AFNetworking"
+  pod "Mantle"
+  pod "SDWebImage"
+  pod "MBProgressHUD"
+
+  target 'arena-CodeChallengeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'arena-CodeChallengeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

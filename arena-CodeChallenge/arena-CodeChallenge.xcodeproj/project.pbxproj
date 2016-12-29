@@ -15,6 +15,9 @@
 		06EAD9051E157A660089CEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD9031E157A660089CEA6 /* LaunchScreen.storyboard */; };
 		06EAD9101E157A660089CEA6 /* arena_CodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD90F1E157A660089CEA6 /* arena_CodeChallengeTests.m */; };
 		06EAD91B1E157A660089CEA6 /* arena_CodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD91A1E157A660089CEA6 /* arena_CodeChallengeUITests.m */; };
+		831073A30D57A5C55E7EB38D /* libPods-arena-CodeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D20F08EE6166C40BA45BA92C /* libPods-arena-CodeChallengeTests.a */; };
+		D98BC018B58B6C42BE81A30F /* libPods-arena-CodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE55D95741331DD2953B1816 /* libPods-arena-CodeChallenge.a */; };
+		FBFE1A6EA149F300F00D8F57 /* libPods-arena-CodeChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77040D3EABA96884152D0EE6 /* libPods-arena-CodeChallengeUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		06EAD9161E157A660089CEA6 /* arena-CodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arena-CodeChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EAD91A1E157A660089CEA6 /* arena_CodeChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arena_CodeChallengeUITests.m; sourceTree = "<group>"; };
 		06EAD91C1E157A660089CEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27454F6DC512D9DCD90A58E4 /* Pods-arena-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallenge/Pods-arena-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		2E1AC3FA7AFD1624EE36E88D /* Pods-arena-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallenge/Pods-arena-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		558DD2249731F525968EBE78 /* Pods-arena-CodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		697BD7AE12CC40AED46354BA /* Pods-arena-CodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallengeTests/Pods-arena-CodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77040D3EABA96884152D0EE6 /* libPods-arena-CodeChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-arena-CodeChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20F08EE6166C40BA45BA92C /* libPods-arena-CodeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-arena-CodeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66FD4F41249392C2207B319 /* Pods-arena-CodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF0881D2DC623A4682D2663 /* Pods-arena-CodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallengeTests/Pods-arena-CodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE55D95741331DD2953B1816 /* libPods-arena-CodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-arena-CodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98BC018B58B6C42BE81A30F /* libPods-arena-CodeChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831073A30D57A5C55E7EB38D /* libPods-arena-CodeChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFE1A6EA149F300F00D8F57 /* libPods-arena-CodeChallengeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				06EAD90E1E157A660089CEA6 /* arena-CodeChallengeTests */,
 				06EAD9191E157A660089CEA6 /* arena-CodeChallengeUITests */,
 				06EAD8F31E157A660089CEA6 /* Products */,
+				B3DAA4944930258F5D6C65D5 /* Pods */,
+				9D3CF0FC6FFD50F3ADD82E52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = "arena-CodeChallengeUITests";
 			sourceTree = "<group>";
 		};
+		9D3CF0FC6FFD50F3ADD82E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE55D95741331DD2953B1816 /* libPods-arena-CodeChallenge.a */,
+				D20F08EE6166C40BA45BA92C /* libPods-arena-CodeChallengeTests.a */,
+				77040D3EABA96884152D0EE6 /* libPods-arena-CodeChallengeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DAA4944930258F5D6C65D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27454F6DC512D9DCD90A58E4 /* Pods-arena-CodeChallenge.debug.xcconfig */,
+				2E1AC3FA7AFD1624EE36E88D /* Pods-arena-CodeChallenge.release.xcconfig */,
+				697BD7AE12CC40AED46354BA /* Pods-arena-CodeChallengeTests.debug.xcconfig */,
+				DDF0881D2DC623A4682D2663 /* Pods-arena-CodeChallengeTests.release.xcconfig */,
+				D66FD4F41249392C2207B319 /* Pods-arena-CodeChallengeUITests.debug.xcconfig */,
+				558DD2249731F525968EBE78 /* Pods-arena-CodeChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06EAD91F1E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallenge" */;
 			buildPhases = (
+				ACB97874C2E8549E9036E4E8 /* [CP] Check Pods Manifest.lock */,
 				06EAD8EE1E157A660089CEA6 /* Sources */,
 				06EAD8EF1E157A660089CEA6 /* Frameworks */,
 				06EAD8F01E157A660089CEA6 /* Resources */,
+				CCA6B4E2F239AA3E814A19C3 /* [CP] Embed Pods Frameworks */,
+				3C5F12B3BAE45EA1B91C4043 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06EAD9221E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallengeTests" */;
 			buildPhases = (
+				0230607A7196C933B6883F25 /* [CP] Check Pods Manifest.lock */,
 				06EAD9071E157A660089CEA6 /* Sources */,
 				06EAD9081E157A660089CEA6 /* Frameworks */,
 				06EAD9091E157A660089CEA6 /* Resources */,
+				2B8C18EBF5274E0A2C30D04E /* [CP] Embed Pods Frameworks */,
+				5FA82C63047E22962175D5B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06EAD9251E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallengeUITests" */;
 			buildPhases = (
+				B52A6A57F22A0DBC08CC8ED2 /* [CP] Check Pods Manifest.lock */,
 				06EAD9121E157A660089CEA6 /* Sources */,
 				06EAD9131E157A660089CEA6 /* Frameworks */,
 				06EAD9141E157A660089CEA6 /* Resources */,
+				7FDD16B3192F33665850857A /* [CP] Embed Pods Frameworks */,
+				C34DFCEFAE0836D4832E365D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0230607A7196C933B6883F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B8C18EBF5274E0A2C30D04E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeTests/Pods-arena-CodeChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C5F12B3BAE45EA1B91C4043 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallenge/Pods-arena-CodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA82C63047E22962175D5B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeTests/Pods-arena-CodeChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FDD16B3192F33665850857A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB97874C2E8549E9036E4E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B52A6A57F22A0DBC08CC8ED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C34DFCEFAE0836D4832E365D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA6B4E2F239AA3E814A19C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallenge/Pods-arena-CodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06EAD8EE1E157A660089CEA6 /* Sources */ = {
@@ -423,6 +610,7 @@
 		};
 		06EAD9201E157A660089CEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27454F6DC512D9DCD90A58E4 /* Pods-arena-CodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
@@ -435,6 +623,7 @@
 		};
 		06EAD9211E157A660089CEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1AC3FA7AFD1624EE36E88D /* Pods-arena-CodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q869SK4UT6;
@@ -447,6 +636,7 @@
 		};
 		06EAD9231E157A660089CEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697BD7AE12CC40AED46354BA /* Pods-arena-CodeChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "arena-CodeChallengeTests/Info.plist";
@@ -459,6 +649,7 @@
 		};
 		06EAD9241E157A660089CEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF0881D2DC623A4682D2663 /* Pods-arena-CodeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "arena-CodeChallengeTests/Info.plist";
@@ -471,6 +662,7 @@
 		};
 		06EAD9261E157A660089CEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66FD4F41249392C2207B319 /* Pods-arena-CodeChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "arena-CodeChallengeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +674,7 @@
 		};
 		06EAD9271E157A660089CEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558DD2249731F525968EBE78 /* Pods-arena-CodeChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "arena-CodeChallengeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

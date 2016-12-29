@@ -105,6 +105,7 @@
 
 -(void)shouldAllowInvalidSSLCertificates:(BOOL)accept{
     _manager.securityPolicy.allowInvalidCertificates = accept;
+    _manager.securityPolicy.validatesDomainName = NO;
 }
 
 -(void)configureReachability {

@@ -36,9 +36,11 @@
     NSString *finalURL = [NSString stringWithFormat:kApiBaseURL,page];
     
     [self GET:finalURL params:nil success:^(NSURLSessionTask *operation, id responseObject) {
+        
         NSError *error;
         
-        NSArray *response = [Repositories parseArray:responseObject error:&error];
+        NSArray *response = [Repositories parseArray:responseObject[@"items"] error:&error];
+        
         if (response)
             success(response);
         else

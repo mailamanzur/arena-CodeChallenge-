@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='arena-CodeChallengeTests.xctest' tests='2' failures='0'>
+  <testsuite name='PullRequestModelTestSpec' tests='1' failures='0'>
+    <testcase classname='PullRequestModelTestSpec' name='test_Testes_modelos_PullRequest__Should_parse_dictionary_into_pullRequest_object' time='0.016'/>
+  </testsuite>
+  <testsuite name='RepositoryModelTestSpec' tests='1' failures='0'>
+    <testcase classname='RepositoryModelTestSpec' name='test_Testes_modelos_Repository__Should_parse_dictionary_into_Repository_object' time='0.006'/>
+  </testsuite>
+</testsuites>

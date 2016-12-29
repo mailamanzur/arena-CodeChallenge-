@@ -22,27 +22,21 @@
 		063374311E15C12F00DEAE91 /* PullRequestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374301E15C12F00DEAE91 /* PullRequestTableViewCell.m */; };
 		063374351E15C22800DEAE91 /* PullRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374341E15C22800DEAE91 /* PullRequest.m */; };
 		063374391E15C58700DEAE91 /* PullRequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374381E15C58700DEAE91 /* PullRequestsViewController.m */; };
+		0633743F1E15D19D00DEAE91 /* PullRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0633743D1E15D19D00DEAE91 /* PullRequest.json */; };
+		063374401E15D19D00DEAE91 /* Repository.json in Resources */ = {isa = PBXBuildFile; fileRef = 0633743E1E15D19D00DEAE91 /* Repository.json */; };
+		063374421E15D1D800DEAE91 /* RepositoryModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374411E15D1D800DEAE91 /* RepositoryModelTest.m */; };
+		063374441E15D1EA00DEAE91 /* PullRequestModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 063374431E15D1EA00DEAE91 /* PullRequestModelTest.m */; };
 		06EAD8F71E157A660089CEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F61E157A660089CEA6 /* main.m */; };
 		06EAD8FA1E157A660089CEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD8F91E157A660089CEA6 /* AppDelegate.m */; };
 		06EAD9001E157A660089CEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD8FE1E157A660089CEA6 /* Main.storyboard */; };
 		06EAD9021E157A660089CEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD9011E157A660089CEA6 /* Assets.xcassets */; };
 		06EAD9051E157A660089CEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EAD9031E157A660089CEA6 /* LaunchScreen.storyboard */; };
-		06EAD9101E157A660089CEA6 /* arena_CodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD90F1E157A660089CEA6 /* arena_CodeChallengeTests.m */; };
-		06EAD91B1E157A660089CEA6 /* arena_CodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EAD91A1E157A660089CEA6 /* arena_CodeChallengeUITests.m */; };
 		831073A30D57A5C55E7EB38D /* libPods-arena-CodeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D20F08EE6166C40BA45BA92C /* libPods-arena-CodeChallengeTests.a */; };
 		D98BC018B58B6C42BE81A30F /* libPods-arena-CodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE55D95741331DD2953B1816 /* libPods-arena-CodeChallenge.a */; };
-		FBFE1A6EA149F300F00D8F57 /* libPods-arena-CodeChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77040D3EABA96884152D0EE6 /* libPods-arena-CodeChallengeUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		06EAD90C1E157A660089CEA6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06EAD8EA1E157A660089CEA6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06EAD8F11E157A660089CEA6;
-			remoteInfo = "arena-CodeChallenge";
-		};
-		06EAD9171E157A660089CEA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 06EAD8EA1E157A660089CEA6 /* Project object */;
 			proxyType = 1;
@@ -82,6 +76,10 @@
 		063374341E15C22800DEAE91 /* PullRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequest.m; sourceTree = "<group>"; };
 		063374371E15C58700DEAE91 /* PullRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRequestsViewController.h; sourceTree = "<group>"; };
 		063374381E15C58700DEAE91 /* PullRequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequestsViewController.m; sourceTree = "<group>"; };
+		0633743D1E15D19D00DEAE91 /* PullRequest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PullRequest.json; sourceTree = "<group>"; };
+		0633743E1E15D19D00DEAE91 /* Repository.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Repository.json; sourceTree = "<group>"; };
+		063374411E15D1D800DEAE91 /* RepositoryModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryModelTest.m; sourceTree = "<group>"; };
+		063374431E15D1EA00DEAE91 /* PullRequestModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequestModelTest.m; sourceTree = "<group>"; };
 		06EAD8F21E157A660089CEA6 /* arena-CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "arena-CodeChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EAD8F61E157A660089CEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06EAD8F81E157A660089CEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,11 +89,7 @@
 		06EAD9041E157A660089CEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06EAD9061E157A660089CEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EAD90B1E157A660089CEA6 /* arena-CodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arena-CodeChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06EAD90F1E157A660089CEA6 /* arena_CodeChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arena_CodeChallengeTests.m; sourceTree = "<group>"; };
 		06EAD9111E157A660089CEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06EAD9161E157A660089CEA6 /* arena-CodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arena-CodeChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06EAD91A1E157A660089CEA6 /* arena_CodeChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arena_CodeChallengeUITests.m; sourceTree = "<group>"; };
-		06EAD91C1E157A660089CEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27454F6DC512D9DCD90A58E4 /* Pods-arena-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallenge/Pods-arena-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		2E1AC3FA7AFD1624EE36E88D /* Pods-arena-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallenge/Pods-arena-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		558DD2249731F525968EBE78 /* Pods-arena-CodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arena-CodeChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,14 +115,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				831073A30D57A5C55E7EB38D /* libPods-arena-CodeChallengeTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06EAD9131E157A660089CEA6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBFE1A6EA149F300F00D8F57 /* libPods-arena-CodeChallengeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +206,31 @@
 			name = PullRequests;
 			sourceTree = "<group>";
 		};
+		0633743A1E15D16A00DEAE91 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0633743D1E15D19D00DEAE91 /* PullRequest.json */,
+				0633743E1E15D19D00DEAE91 /* Repository.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		0633743B1E15D17200DEAE91 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				063374411E15D1D800DEAE91 /* RepositoryModelTest.m */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		0633743C1E15D17C00DEAE91 /* PullRequests */ = {
+			isa = PBXGroup;
+			children = (
+				063374431E15D1EA00DEAE91 /* PullRequestModelTest.m */,
+			);
+			name = PullRequests;
+			sourceTree = "<group>";
+		};
 		06425E401E1580CA009E054D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,7 +312,6 @@
 			children = (
 				06EAD8F41E157A660089CEA6 /* arena-CodeChallenge */,
 				06EAD90E1E157A660089CEA6 /* arena-CodeChallengeTests */,
-				06EAD9191E157A660089CEA6 /* arena-CodeChallengeUITests */,
 				06EAD8F31E157A660089CEA6 /* Products */,
 				B3DAA4944930258F5D6C65D5 /* Pods */,
 				9D3CF0FC6FFD50F3ADD82E52 /* Frameworks */,
@@ -313,7 +323,6 @@
 			children = (
 				06EAD8F21E157A660089CEA6 /* arena-CodeChallenge.app */,
 				06EAD90B1E157A660089CEA6 /* arena-CodeChallengeTests.xctest */,
-				06EAD9161E157A660089CEA6 /* arena-CodeChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,19 +357,12 @@
 		06EAD90E1E157A660089CEA6 /* arena-CodeChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				06EAD90F1E157A660089CEA6 /* arena_CodeChallengeTests.m */,
+				0633743C1E15D17C00DEAE91 /* PullRequests */,
+				0633743B1E15D17200DEAE91 /* Repositories */,
+				0633743A1E15D16A00DEAE91 /* Mocks */,
 				06EAD9111E157A660089CEA6 /* Info.plist */,
 			);
 			path = "arena-CodeChallengeTests";
-			sourceTree = "<group>";
-		};
-		06EAD9191E157A660089CEA6 /* arena-CodeChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				06EAD91A1E157A660089CEA6 /* arena_CodeChallengeUITests.m */,
-				06EAD91C1E157A660089CEA6 /* Info.plist */,
-			);
-			path = "arena-CodeChallengeUITests";
 			sourceTree = "<group>";
 		};
 		9D3CF0FC6FFD50F3ADD82E52 /* Frameworks */ = {
@@ -430,27 +432,6 @@
 			productReference = 06EAD90B1E157A660089CEA6 /* arena-CodeChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06EAD9151E157A660089CEA6 /* arena-CodeChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06EAD9251E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallengeUITests" */;
-			buildPhases = (
-				B52A6A57F22A0DBC08CC8ED2 /* [CP] Check Pods Manifest.lock */,
-				06EAD9121E157A660089CEA6 /* Sources */,
-				06EAD9131E157A660089CEA6 /* Frameworks */,
-				06EAD9141E157A660089CEA6 /* Resources */,
-				7FDD16B3192F33665850857A /* [CP] Embed Pods Frameworks */,
-				C34DFCEFAE0836D4832E365D /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06EAD9181E157A660089CEA6 /* PBXTargetDependency */,
-			);
-			name = "arena-CodeChallengeUITests";
-			productName = "arena-CodeChallengeUITests";
-			productReference = 06EAD9161E157A660089CEA6 /* arena-CodeChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -466,11 +447,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					06EAD90A1E157A660089CEA6 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 06EAD8F11E157A660089CEA6;
-					};
-					06EAD9151E157A660089CEA6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 06EAD8F11E157A660089CEA6;
@@ -492,7 +468,6 @@
 			targets = (
 				06EAD8F11E157A660089CEA6 /* arena-CodeChallenge */,
 				06EAD90A1E157A660089CEA6 /* arena-CodeChallengeTests */,
-				06EAD9151E157A660089CEA6 /* arena-CodeChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -512,13 +487,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06EAD9141E157A660089CEA6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0633743F1E15D19D00DEAE91 /* PullRequest.json in Resources */,
+				063374401E15D19D00DEAE91 /* Repository.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,21 +555,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeTests/Pods-arena-CodeChallengeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7FDD16B3192F33665850857A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		ACB97874C2E8549E9036E4E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -613,36 +568,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B52A6A57F22A0DBC08CC8ED2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C34DFCEFAE0836D4832E365D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-arena-CodeChallengeUITests/Pods-arena-CodeChallengeUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCA6B4E2F239AA3E814A19C3 /* [CP] Embed Pods Frameworks */ = {
@@ -691,15 +616,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EAD9101E157A660089CEA6 /* arena_CodeChallengeTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06EAD9121E157A660089CEA6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06EAD91B1E157A660089CEA6 /* arena_CodeChallengeUITests.m in Sources */,
+				063374441E15D1EA00DEAE91 /* PullRequestModelTest.m in Sources */,
+				063374421E15D1D800DEAE91 /* RepositoryModelTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,11 +628,6 @@
 			isa = PBXTargetDependency;
 			target = 06EAD8F11E157A660089CEA6 /* arena-CodeChallenge */;
 			targetProxy = 06EAD90C1E157A660089CEA6 /* PBXContainerItemProxy */;
-		};
-		06EAD9181E157A660089CEA6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 06EAD8F11E157A660089CEA6 /* arena-CodeChallenge */;
-			targetProxy = 06EAD9171E157A660089CEA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -880,30 +793,6 @@
 			};
 			name = Release;
 		};
-		06EAD9261E157A660089CEA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D66FD4F41249392C2207B319 /* Pods-arena-CodeChallengeUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = "arena-CodeChallengeUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "maila.arena-CodeChallengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "arena-CodeChallenge";
-			};
-			name = Debug;
-		};
-		06EAD9271E157A660089CEA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 558DD2249731F525968EBE78 /* Pods-arena-CodeChallengeUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = "arena-CodeChallengeUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "maila.arena-CodeChallengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "arena-CodeChallenge";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -930,15 +819,6 @@
 			buildConfigurations = (
 				06EAD9231E157A660089CEA6 /* Debug */,
 				06EAD9241E157A660089CEA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		06EAD9251E157A660089CEA6 /* Build configuration list for PBXNativeTarget "arena-CodeChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06EAD9261E157A660089CEA6 /* Debug */,
-				06EAD9271E157A660089CEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

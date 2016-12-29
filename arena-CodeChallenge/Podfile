@@ -7,12 +7,9 @@ target 'arena-CodeChallenge' do
 
   target 'arena-CodeChallengeTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod "Specta"
+    pod "Expecta"
   end
 
-  target 'arena-CodeChallengeUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

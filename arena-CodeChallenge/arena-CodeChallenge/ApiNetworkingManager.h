@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AFNetworking/AFNetworking.h>
+#import "NetworkingConstants.h"
 
 typedef void (^SuccessBlock)(NSURLSessionTask *operation, id responseObject);
 typedef void (^FailureBlock)(NSURLSessionTask *operation, NSError *error, NSString *customErrorMessage);

@@ -11,6 +11,9 @@
 //Base
 extern NSString *const kApiBaseURL;
 
+//Pull Request
+extern NSString *const kApiPullRequest;
+
 //HTTP Status code
 extern NSString *const kBadRequestStatus;
 extern NSString *const kUnauthorizedStatus;

@@ -9,7 +9,11 @@
 #import "NetworkingConstants.h"
 
 # pragma mark - Base
-NSString *const kApiBaseURL = @"/%@";
+NSString *const kApiBaseURL = @"https://api.github.com/search/repositories?q=language:Java&sort=stars&page=%@";
+
+# pragma mark - Pull Requests
+NSString *const kApiPullRequest = @"https://api.github.com/repos/%@/%@/pulls";
+
 
 # pragma mark - HTTP Status code
 NSString *const kBadRequestStatus = @"400";

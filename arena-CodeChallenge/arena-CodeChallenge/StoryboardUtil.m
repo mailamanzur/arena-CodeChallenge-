@@ -7,6 +7,8 @@
 //
 
 #import "StoryboardUtil.h"
+#import "PullRequestsViewController.h"
+#import "RepositoriesViewController.h"
 
 
 @implementation StoryboardUtil
@@ -25,6 +27,16 @@
     return [mainStoryboard instantiateViewControllerWithIdentifier:controllerName];
 }
 
+#pragma mark - Repositories
 
++(RepositoriesViewController *)repositoriesViewController{
+    return (RepositoriesViewController *)[StoryboardUtil viewControllerWithStoryboard:@"Main" controllerName:@"RepositoriesViewController"];
+}
+
+#pragma mark - PullRequests
+
++(PullRequestsViewController *)pullRequestsViewController{
+    return (PullRequestsViewController *)[StoryboardUtil viewControllerWithStoryboard:@"Main" controllerName:@"PullRequestsViewController.h"];
+}
 
 @end

@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-
+@class RepositoriesViewController, PullRequestsViewController;
 @interface StoryboardUtil : UIStoryboard
 
-//Main
-//+(MainTabBarController *)mainTabBarController;
-
-
+//Repositories
++(RepositoriesViewController *)repositoriesViewController;
+//PullRequests
++(PullRequestsViewController *)pullRequestsViewController;
 
 @end
